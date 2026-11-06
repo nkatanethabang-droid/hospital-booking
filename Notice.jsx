@@ -1,0 +1,1 @@
+export default function Notice({error,success}){return <>{error&&<div className="notice error">{error}</div>}{success&&<div className="notice success">{success}</div>}</>}
